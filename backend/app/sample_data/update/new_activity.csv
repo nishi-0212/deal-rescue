@@ -1,0 +1,5 @@
+deal_id,type,date,direction,from,to,subject,body,outcome,due_date
+DL-1044,email,2026-10-15,outbound,Priya Sharma,Tom Becker <tom.becker@kestrel.example>,Revised pricing,"Hi Tom, revised pricing attached: $168k for the 120-camera rollout, with installation included.",,
+DL-1044,email,2026-10-16,inbound,Tom Becker <tom.becker@kestrel.example>,Priya Sharma,Re: Revised pricing,"Thanks Priya. Grace reviewed it and the revised pricing is approved. Ravi will schedule the technical sign-off next week.",,
+DL-1043,email,2026-10-16,inbound,Lena Ortiz <lena.ortiz@harbormutual.example>,Arjun Mehta,Re: Quick check-in,"Hi Arjun, sorry for the silence, quarter-end was hectic. Our CFO Daniel Brooks wants a 30-minute call and a one-page business case before the board meeting. Can you send that?",,
+DL-1049,email,2026-10-16,inbound,Mia Chen <mia.chen@pacificcrest.example>,Sara Lin,Re: Close date,"Hi Sara, apologies, peak season swallowed us. Can we regroup next week? Luis still has a couple of integration questions.",,

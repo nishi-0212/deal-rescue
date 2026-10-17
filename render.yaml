@@ -1,0 +1,24 @@
+# Render blueprint for the API. Set the secret values in the Render dashboard.
+services:
+  - type: web
+    name: deal-rescue-api
+    runtime: python
+    rootDir: backend
+    buildCommand: python -m pip install -r requirements.txt
+    startCommand: python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: MONGODB_DB
+        value: deal_rescue
+      - key: JWT_SECRET
+        generateValue: true
+      - key: GROQ_API_KEY
+        sync: false
+      - key: GROQ_MODEL
+        value: openai/gpt-oss-120b
+      - key: FRONTEND_ORIGINS
+        sync: false
+      - key: PYTHON_VERSION
+        value: 3.12.7

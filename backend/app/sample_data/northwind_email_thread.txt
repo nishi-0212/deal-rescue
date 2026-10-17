@@ -1,0 +1,40 @@
+Deal: DL-1042
+Type: email
+Date: 2026-09-16
+From: Marcus Hale <marcus.hale@northwind.example>
+To: Priya Sharma
+Subject: Security questionnaire for Fleet Analytics
+
+Hi Priya,
+
+Before we can sign, our security team needs the attached questionnaire completed (64 items).
+Two things matter most for us: SSO through Okta, and keeping data for our EU fleet in the EU.
+
+Thanks,
+Marcus
+
+---
+Deal: DL-1042
+Type: call
+Date: 2026-09-22
+From: Priya Sharma
+To: Marcus Hale
+Subject: Call with Marcus on data residency
+Outcome: completed
+
+Marcus confirmed data residency for the EU fleet is a hard requirement. Our solutions engineer said EU hosting is
+available and that we'd answer it in the questionnaire. Marcus asked when to expect the questionnaire back;
+we said within two weeks.
+
+---
+Deal: DL-1042
+Type: email
+Date: 2026-09-29
+From: Marcus Hale <marcus.hale@northwind.example>
+To: Priya Sharma
+Subject: Re: Security questionnaire for Fleet Analytics
+
+Hi Priya, following up on the questionnaire. Our security review can't start until we have it,
+and Ana is asking me for a timeline. Do you have an ETA?
+
+Marcus
